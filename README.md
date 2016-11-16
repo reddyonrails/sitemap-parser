@@ -23,3 +23,9 @@ sitemap = SitemapParser.new('http://ben.balter.com/sitemap.xml', {recurse: true}
 ## Roadmap
 
 * `sitemap_index` support
+
+## Modified original with following
+* Modified original fork https://github.com/benbalter/sitemap-parser
+* Added last modified sitemap url support
+* Took care of redirection
+* added limited url count support
